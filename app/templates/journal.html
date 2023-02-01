@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Mon autothérapie</title>
+    </head>
+    
+    <body>
+    <h1>Mon journal</h1>
+        <div>
+        <ul>
+        {%for i in resultat%}
+              {%for j in i%}
+             
+              {%if loop.index==1 %}
+              <li>Date : {{j}}</li> 
+              {%endif%}
+              {%if loop.index==2 %}
+              <li>Votre humeur : {{j}}</li> 
+              {%endif%}
+              {%if loop.index==3 %}
+              <li>Votre émotion : {{j}}</li> 
+              {%endif%}
+              {%if loop.index==4 %}
+              <li>La raison de cette émotion : {{j}}</li> 
+              {%endif%}
+                
+              {%endfor%}
+              <br>
+        {%endfor%}
+        </ul>
+     
+         </div>
+
+        
+        
+        </form>
+	</body>
+	
+</html>

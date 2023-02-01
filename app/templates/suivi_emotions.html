@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Mon autothérapie</title>
+    </head>
+    <body>
+    <h1>Bienvenue dans votre suivi des émotions</h1>
+    
+    	<form action="http://localhost:5000/accueil/suivi_emotions/recap_emotions" method="get">
+        	<fieldset>
+            <legend>Quel est la date d'aujourd'hui?</legend>
+
+            <div>
+              <input type="date" id="date" name="date">
+            </div>
+            
+            </fieldset>
+            
+            <fieldset>
+            <legend>Quel est votre degré d'humeur aujourd'hui ?</legend>
+
+            <div>
+              <input type="radio" id="Pas bien du tout" name="humeur" value="Pas bien du tout">
+              <label for="Pas bien du tout">Pas bien du tout</label>
+            </div>
+
+            <div>
+              <input type="radio" id="Pas bien" name="humeur" value="Pas bien">
+              <label for="Pas bien">Pas bien</label>
+            </div>
+
+            <div>
+              <input type="radio" id="Moyen" name="humeur" value="Moyen">
+              <label for="Moyen">Moyen</label>
+            </div>
+            
+            <div>
+              <input type="radio" id="Ca va" name="humeur" value="Ca va">
+              <label for="Ca va">Ca va</label>
+            </div>
+            
+            <div>
+              <input type="radio" id="Excellent" name="humeur" value="Excellent">
+              <label for="Excellent">Excellent</label>
+            </div>
+            
+            </fieldset>
+
+            <fieldset>
+            <legend>Précisez quelle émotion vous ressentez aujourd'hui.</legend>
+
+            <div>
+              <input type="radio" id="Blessé" name="emotion" value="Blessé">
+              <label for="Blessé">Blessé</label>
+            </div>
+
+            <div>
+              <input type="radio" id="Menacé" name="emotion" value="Menacé">
+              <label for="Menacé">Menacé</label>
+            </div>
+
+            <div>
+              <input type="radio" id="Haineux" name="emotion" value="Haineux">
+              <label for="Haineux">Haineux</label>
+            </div>
+            
+            <div>
+              <input type="radio" id="En colère" name="emotion" value="En colère">
+              <label for="En colère">En colère</label>
+            </div>
+            
+            <div>
+              <input type="radio" id="Agressif" name="emotion" value="Agressif">
+              <label for="Agressif">Agressif</label>
+            </div>
+            
+            <div>
+              <input type="radio" id="Frustré" name="emotion" value="Frustré">
+              <label for="Frustré">Frustré</label>
+            </div>
+            
+            <div>
+              <input type="radio" id="Distant" name="emotion" value="Distant">
+              <label for="Distant">Distant</label>
+            </div>
+            
+            <div>
+              <input type="radio" id="Critique" name="emotion" value="Critique">
+              <label for="Critique">Critique</label>
+            </div>
+            
+            <div>
+              <input type="radio" id="Réprobation" name="emotion" value="Réprobation">
+              <label for="Réprobation">Réprobation</label>
+            </div>
+            
+            <div>
+              <input type="radio" id="Déception" name="emotion" value="Déception">
+              <label for="Déception">Déception</label>
+            </div>
+            
+            <div>
+              <input type="radio" id="Terrible" name="emotion" value="Terrible">
+              <label for="Terrible">Terrible</label>
+            </div>
+            
+            <div>
+              <input type="radio" id="Evitement" name="emotion" value="Evitement">
+              <label for="Evitement">Evitement</label>
+            </div>
+            
+            <div>
+              <input type="radio" id="Culpabilité" name="emotion" value="Culpabilité">
+              <label for="Culpabilité">Culpabilité</label>
+            </div>
+            
+            <div>
+              <input type="radio" id="Abandon" name="emotion" value="Abandon">
+              <label for="Abandon">Abandon</label>
+            </div>
+            
+            <div>
+              <input type="radio" id="Désespoir" name="emotion" value="Désespoir">
+              <label for="Désespoir">Désespoir</label>
+            </div>
+            
+            <div>
+              <input type="radio" id="Dépression" name="emotion" value="Dépression">
+              <label for="Dépression">Dépression</label>
+            </div>
+            
+            <div>
+              <input type="radio" id="Solitude" name="emotion" value="Solitude">
+              <label for="Solitude">Solitude</label>
+            </div>
+            
+            <div>
+              <input type="radio" id="Ennui" name="emotion" value="Ennui">
+              <label for="Ennui">Ennui</label>
+            </div>
+            
+            <div>
+              <input type="radio" id="Optimiste" name="emotion" value="Optimiste">
+              <label for="Optimiste">Optimiste</label>
+            </div>
+            
+            <div>
+              <input type="radio" id="Intime" name="emotion" value="Intime">
+              <label for="Intime">Intime</label>
+            </div>
+            
+            <div>
+              <input type="radio" id="Paisible" name="emotion" value="Paisible">
+              <label for="Paisible">Paisible</label>
+            </div>
+            
+            <div>
+              <input type="radio" id="Fort" name="emotion" value="Fort">
+              <label for="Fort">Fort</label>
+            </div>
+            
+            <div>
+              <input type="radio" id="Accepté" name="emotion" value="Accepté">
+              <label for="Accepté">Accepté</label>
+            </div>
+            
+            <div>
+              <input type="radio" id="Fier" name="emotion" value="Fier">
+              <label for="Fier">Fier</label>
+            </div>
+            
+            <div>
+              <input type="radio" id="Intéressé" name="emotion" value="Intéressé">
+              <label for="Intéressé">Intéressé</label>
+            </div>
+            
+            <div>
+              <input type="radio" id="Joyeux" name="emotion" value="Joyeux">
+              <label for="Joyeux">Joyeux</label>
+            </div>
+            
+            <div>
+              <input type="radio" id="Excité" name="emotion" value="Excité">
+              <label for="Excité">Excité</label>
+            </div>
+            
+            <div>
+              <input type="radio" id="Etonné" name="emotion" value="Etonné">
+              <label for="Etonné">Etonné</label>
+            </div>
+            
+            <div>
+              <input type="radio" id="Confu" name="emotion" value="Confu">
+              <label for="Confu">Confu</label>
+            </div>
+            
+            <div>
+              <input type="radio" id="Surpris" name="emotion" value="Surpris">
+              <label for="Surpris">Surpris</label>
+            </div>
+            
+            <div>
+              <input type="radio" id="Apeuré" name="emotion" value="Apeuré">
+              <label for="Apeuré">Apeuré</label>
+            </div>
+            
+            <div>
+              <input type="radio" id="Anxieux" name="emotion" value="Anxieux">
+              <label for="Anxieux">Anxieux</label>
+            </div>
+            
+            <div>
+              <input type="radio" id="Insécure" name="emotion" value="Insécure">
+              <label for="Insécure">Insécure</label>
+            </div>
+            
+            <div>
+              <input type="radio" id="Docile" name="emotion" value="Docile">
+              <label for="Docile">Docile</label>
+            </div>
+            
+            <div>
+              <input type="radio" id="Rejeté" name="emotion" value="Rejeté">
+              <label for="Rejeté">Rejeté</label>
+            </div>
+            
+            <div>
+              <input type="radio" id="Humilié" name="emotion" value="Humilié">
+              <label for="Humilié">Humilié</label>
+            </div>
+            
+            </fieldset>
+            
+            <fieldset>
+            <legend>Pouvez-vous écrire la raison de cette émotion ?</legend>
+
+            <textarea id="raison_emotion" name="raison_emotion" rows="5" cols="20">
+            
+            </textarea>
+            </fieldset>
+            
+            <input type="submit" value="Valider mes réponses" />
+            
+        </form>
+	 </body>
+</html>
